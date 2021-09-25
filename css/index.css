@@ -1,1 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+  /*color url = https://colorhunt.co/palette/f7f7f7eeeeee393e46929aab*/
+  --main-bg-white: #F7F7F7;
+  --main-text-black: #393E46;
+  --main-sec-white: #EEEEEE;
+  --main-sectext-gray: #929AAB;
+}
+
+body {
+  background-color: var(--main-bg-white);
+}
+
+h1 {
+  font-family: 'Crimson Text bold', serif;
+  font-size: 39.81px;
+  line-height: 1.75;
+}
+
+h2 {
+  font-family: 'Crimson Text bold', serif;
+  font-size: 33.18px;
+  line-height: 1.75;
+}
+
+h3 {
+  font-family: 'Crimson Text bold', serif;
+  font-size: 27.65px;
+  line-height: 1.75;
+}
+
+h4 {
+  font-family: 'Crimson Text bold', serif;
+  font-size: 23.04px;
+  line-height: 1.75;
+}
+
+h5 {
+  font-family: 'Crimson Text bold', serif;
+  font-size: 19.20px;
+  line-height: 1.75;
+}
+
+h6 {
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+
+/*55555555555555*/
+
+
+#nav {
+  height: 100px;
+  color: var(--main-text-black);
+  padding: 0 5% 30px 5%;
+}
+.nav-link {
+  color: var(--main-text-black);
+}
+.nav-link:hover {
+  color: var(--main-sectext-gray);
+}
+.socal-icon:hover {
+  color: var(--main-sectext-gray);
+}
+
+
+#landing {
+  color: var(--main-text-black);
+  padding: 0 5% 30px 5%;
+}
+.landing-title {
+  margin: 0 0 20px 0;
+}
+.landing-p {
+  margin: 0 0 50px 0;
+}
+.landing-img {
+  margin: 0 0 30px 0;
+}
+
+
+#work {
+  color: var(--main-text-black);
+  padding: 30px 5%;
+}
+
+.work-head-title {
+  margin: 0 0 30px 0;
+}
+.work-item {
+  background-color: var(--main-sec-white);
+  border-radius: 8px;
+  padding: 16px 16px;
+}
+
+
+#skills {
+  color: var(--main-text-black);
+  padding: 10% 5%;
+  text-align: center;
+}
+.skills-head-title {
+  margin: 0 0 20px 0;
+}
+
+#about {
+  color: var(--main-text-black);
+  padding: 10% 5%;
+}
+
+#music {
+  color: var(--main-text-black);
+  padding: 10% 5%;
+}
+.music-img {
+  
+}
+
+#footer {
+  color: var(--main-text-black);
+  padding: 10% 5%;
+  text-align: center;
+}
